@@ -4,10 +4,8 @@ import Image from "next/image";
 import Sidebar from "./Sidebar";
 
 import useSidebarStore from "@/zustand/sidebarStore";
-import { isPostfixUnaryExpression } from "typescript";
 
 export default function NavBar() {
-    const sidebarIsOpen = useSidebarStore((state) => state.isOpen);
     const toggleSidebar = useSidebarStore((state) => state.toggleSidebar);
 
     return (
@@ -49,11 +47,7 @@ export default function NavBar() {
                         Menu
                     </button>
                 </div>
-                <div
-                    className={`${
-                        sidebarIsOpen ? "translate-x-0" : "translate-x-full"
-                    } z-1000 fixed top-0 bottom-0 right-0 flex w-[300px] flex-col bg-red-500 px-8 py-4 shadow-sm transition-transform`}
-                ></div>
+                <Sidebar />
             </nav>
         </header>
     );
