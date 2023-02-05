@@ -29,7 +29,7 @@ export default function Product({
     return (
         <div
             className={`${
-                sidebarIsOpen && "blur-[3px] brightness-50"
+                sidebarIsOpen && "brightness-50 md:blur-[3px]"
             } relative z-0 h-screen w-full snap-start`}
         >
             <div className="absolute -z-10 h-full w-full">

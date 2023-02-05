@@ -13,9 +13,9 @@ export default function Sidebar(): JSX.Element {
         <div
             className={`${
                 sidebarIsOpen
-                    ? "translate-x-0 opacity-100"
-                    : "translate-x-full opacity-0"
-            } fixed top-0 bottom-0 right-0 z-50 flex w-[300px] flex-col bg-white px-6 py-3 shadow-xl transition duration-1000`}
+                    ? "translate-x-0 md:opacity-100"
+                    : "translate-x-full md:opacity-0"
+            } fixed top-0 bottom-0 right-0 z-50 flex w-3/5 flex-col bg-white px-6 py-3 shadow-xl transition duration-500 md:w-[300px]`}
         >
             <div
                 className="cursor-pointer self-end transition-colors duration-300 hover:bg-slate-300"
