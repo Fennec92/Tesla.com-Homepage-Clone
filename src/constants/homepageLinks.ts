@@ -1,107 +1,107 @@
-type links = {
+type Links = {
     linkName: string;
     path: string;
     id: number;
 };
 
-export const homepageLinks: links[] = [
+export const homepageLinks: Links[] = [
     {
-        linkName: "placeholder",
+        linkName: "Model S",
         path: "/",
         id: 1,
     },
     {
-        linkName: "placeholder",
+        linkName: "Model 3",
         path: "/",
         id: 2,
     },
     {
-        linkName: "placeholder",
+        linkName: "Model X",
         path: "/",
         id: 3,
     },
     {
-        linkName: "placeholder",
+        linkName: "Model Y",
         path: "/",
         id: 4,
     },
     {
-        linkName: "placeholder",
+        linkName: "Solar Roof",
         path: "/",
         id: 5,
     },
     {
-        linkName: "placeholder",
+        linkName: "Solar Panels",
         path: "/",
         id: 6,
     },
     {
-        linkName: "placeholder",
+        linkName: "Existing Inventory",
         path: "/",
         id: 7,
     },
     {
-        linkName: "placeholder",
+        linkName: "Used Inventory",
         path: "/",
         id: 8,
     },
     {
-        linkName: "placeholder",
+        linkName: "Trade-In",
         path: "/",
         id: 9,
     },
     {
-        linkName: "placeholder",
+        linkName: "Demo Drive",
         path: "/",
         id: 10,
     },
     {
-        linkName: "placeholder",
+        linkName: "Insurance",
         path: "/",
         id: 11,
     },
     {
-        linkName: "placeholder",
+        linkName: "Powerwall",
         path: "/",
         id: 12,
     },
     {
-        linkName: "placeholder",
+        linkName: "Commercial Energy",
         path: "/",
         id: 13,
     },
     {
-        linkName: "placeholder",
+        linkName: "Utilities",
         path: "/",
         id: 14,
     },
     {
-        linkName: "placeholder",
+        linkName: "Charging",
         path: "/",
         id: 15,
     },
     {
-        linkName: "placeholder",
+        linkName: "Find Ua",
         path: "/",
         id: 16,
     },
     {
-        linkName: "placeholder",
+        linkName: "Support",
         path: "/",
         id: 17,
     },
     {
-        linkName: "placeholder",
+        linkName: "Investor Relations",
         path: "/",
         id: 18,
     },
     {
-        linkName: "placeholder",
+        linkName: "Shop",
         path: "/",
         id: 19,
     },
     {
-        linkName: "placeholder",
+        linkName: "Account",
         path: "/",
         id: 20,
     },

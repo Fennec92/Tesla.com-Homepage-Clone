@@ -1,4 +1,4 @@
-type content = {
+type Content = {
     name: string;
     desc: string;
     underscore: boolean;
@@ -6,10 +6,11 @@ type content = {
     btn2: string | boolean;
     chevron: boolean;
     image: string;
+    imageMobile: string;
     id: number;
 };
 
-export const homepageContent: content[] = [
+export const homepageContent: Content[] = [
     {
         name: "Model 3",
         desc: "Leasing starting at $349/mo",
@@ -17,7 +18,8 @@ export const homepageContent: content[] = [
         btn1: "Custom Order",
         btn2: "Demo Drive",
         chevron: true,
-        image: "/assets/",
+        image: "/assets/Model-3.webp",
+        imageMobile: "/assets/mobile/Model-3-Mobile.webp",
         id: 1,
     },
     {
@@ -27,7 +29,8 @@ export const homepageContent: content[] = [
         btn1: "Custom Order",
         btn2: "Demo Drive",
         chevron: false,
-        image: "",
+        image: "/assets/Model-Y.webp",
+        imageMobile: "/assets/mobile/Model-Y-Mobile.webp",
         id: 2,
     },
     {
@@ -37,7 +40,8 @@ export const homepageContent: content[] = [
         btn1: "Custom Order",
         btn2: "View Inventory",
         chevron: false,
-        image: "",
+        image: "/assets/Model-S.webp",
+        imageMobile: "/assets/mobile/Model-S-Mobile.webp",
         id: 3,
     },
     {
@@ -47,7 +51,8 @@ export const homepageContent: content[] = [
         btn1: "Custom Order",
         btn2: "View Inventory",
         chevron: false,
-        image: "",
+        image: "/assets/Model-X.webp",
+        imageMobile: "/assets/mobile/Model-X-Mobile.webp",
         id: 4,
     },
     {
@@ -57,7 +62,8 @@ export const homepageContent: content[] = [
         btn1: "Order Now",
         btn2: "Learn More",
         chevron: false,
-        image: "",
+        image: "/assets/SolarPanels.webp",
+        imageMobile: "/assets/mobile/SolarPanels-Mobile.webp",
         id: 5,
     },
     {
@@ -67,7 +73,8 @@ export const homepageContent: content[] = [
         btn1: "Order Now",
         btn2: "Learn More",
         chevron: false,
-        image: "",
+        image: "/assets/SolarRoof.webp",
+        imageMobile: "/assets/mobile/SolarRoof-Mobile.webp",
         id: 6,
     },
     {
@@ -77,7 +84,8 @@ export const homepageContent: content[] = [
         btn1: "Shop Now",
         btn2: false,
         chevron: false,
-        image: "",
+        image: "/assets/Accessories.webp",
+        imageMobile: "/assets/mobile/Accessories-Mobile.webp",
         id: 7,
     },
 ];
