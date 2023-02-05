@@ -30,7 +30,7 @@ export default function Product({
         <div
             className={`${
                 sidebarIsOpen && "blur-[3px] brightness-50"
-            } relative z-0 h-screen w-full snap-start duration-500`}
+            } relative z-0 h-screen w-full snap-start`}
         >
             <div className="absolute -z-10 h-full w-full">
                 <Image
@@ -38,12 +38,16 @@ export default function Product({
                     alt=""
                     fill
                     className="hidden object-cover md:block"
+                    sizes="(min-width: 769px) 70vw"
+                    priority
                 />
                 <Image
                     src={imageMobile}
                     alt=""
                     fill
                     className="object-cover md:hidden"
+                    sizes="(max-width: 768px) 50vw"
+                    priority
                 />
             </div>
             <div className="flex h-full w-full flex-col items-center justify-between pt-36 pb-32">
