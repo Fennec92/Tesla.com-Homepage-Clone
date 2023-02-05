@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none; /* Chrome */
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+/* seitliches Scrolling debuggen */
+
+/* * {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #0f0 1px !important;
+} */
