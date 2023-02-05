@@ -76,7 +76,7 @@ export default function Product({
                     alt=""
                     width="64"
                     height="64"
-                    className="absolute bottom-2 right-[calc(50vw-32px)] animate-bounce"
+                    className="absolute bottom-10 right-[calc(50vw-32px)] animate-bounce md:bottom-4"
                 />
             )}
         </div>
